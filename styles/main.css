@@ -1,0 +1,85 @@
+.button {
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: white;
+}
+.button:hover {
+    background-color: coral;
+    color: black;
+}
+#username:focus{
+    background-color: lightblue;
+    color: black;
+}
+#first-paragraph::first-line {
+    font-style: italic;
+    font-size: 25px;
+    color: red;
+}
+#first-paragraph::first-letter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+}
+#first-paragraph::selection {
+    color: white;
+    background: #0000ff;
+}
+a[target]{
+    color: #008000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a[target="_top"]{
+    color: #ffA500;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p[title] {
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.margin-div {
+    background-color: #ff0000;
+}
+.margin-p {
+    background-color: #008000;
+    margin: 30px;
+    padding: 50px;
+}
+
+.display-div {
+    background-color: #0000ff;
+}
+
+.display-p {
+    background-color: #008000;
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+}
+
+.display-a{
+    background-color: grey;
+    height: 200px;
+}
+
+.flex-div {
+    background-color: aqua;
+    display: flex;
+}
+
+.grid-div {
+    background-color: #008000;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grid-para {
+    background-color: aqua;
+    border: 1px solid white;
+}
